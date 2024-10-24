@@ -4,7 +4,7 @@ import MovieContext from "./Context";
 const Movie = ({ img_src, name, rating, genre, date }) => {
    
     return (
-        <a href="#" className="h-11/12 w-full bg-red-300 rounded-2xl justify-center items-center" >
+        <a href="#" className="h-11/12 w-full bg-red-300 rounded-2xl justify-center items-center">
             <div className="w-11/12 h-full ml-4 mt-2">
                 <img src={img_src} alt="movie" className="w-full h-3/4 rounded-2xl" />
                 <div className="w-full h-1/2">
