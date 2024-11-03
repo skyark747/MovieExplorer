@@ -1,10 +1,15 @@
 import Movie from "./Movie";
-import Movies from "./Movies";
-import { useEffect, useState } from "react";
+import Action from "./Movies";
+import Adventure from "./Adventure";
+import { useEffect, useState,useContext } from "react";
 import MovieContext from "./Context";
 
+
 const MovieList = () => {
+
     const [count, setCount] = useState(0);
+
+    const { Movies, SetMovies } = useContext(MovieContext);
 
 
     useEffect(() => {

@@ -1,4 +1,4 @@
-const Movies = [
+const Action = [
     {
         name: 'Blade 3',
         url: "https://th.bing.com/th/id/R.5672865c84d56c0a2580d84c30d4734b?rik=427juFeXfvvSgw&riu=http%3a%2f%2fimages5.fanpop.com%2fimage%2fphotos%2f25600000%2fMovies-wallpaper-movies-25626543-1600-1200.jpg&ehk=ZHR9tDcnIU%2foTvN0IVTJ0H3LeJSAnO2g89OG7jQazfg%3d&risl=&pid=ImgRaw&r=0",
@@ -65,4 +65,4 @@ const Movies = [
     }
 ]
 
-export default Movies;
+export default Action;
